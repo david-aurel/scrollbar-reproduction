@@ -1,16 +1,41 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  background-color: blanchedalmond;
 }
 
 * {
   box-sizing: border-box;
+}
+
+#layout {
+  background-color: cornsilk;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.common-example {
+  border: 1px solid black;
+  height: 200px;
+  margin: 16px 0;
+}
+
+.bad-example {
+  background-color: burlywood;
+  overflow: scroll;
+}
+
+.good-example {
+  background-color: darkcyan;
+  overflow: auto;
+}
+
+.bad-example-y {
+  background-color: chocolate;
+  overflow-y: scroll;
+}
+
+.good-example-y {
+  background-color: aquamarine;
+  overflow-y: auto;
 }
