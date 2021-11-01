@@ -18,6 +18,9 @@ const Layout: NextComponentType = ({ children }) => {
           <li>
             <Link href="/c">Page C</Link>
           </li>
+          <li>
+            <Link href="/d">Page D</Link>
+          </li>
         </ul>
       </nav>
       {children}
